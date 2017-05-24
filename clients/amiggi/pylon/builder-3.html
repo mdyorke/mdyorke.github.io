@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Page title -->
+    <title>PYLON</title>
+
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="vendor/metisMenu/dist/metisMenu.css" />
+    <link rel="stylesheet" href="vendor/animate.css/animate.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="vendor/bootstrap-datepicker-master/dist/css/bootstrap-datepicker3.min.css" />
+    <link rel="stylesheet" href="vendor/select2-3.5.2/select2.css" />
+    <link rel="stylesheet" href="vendor/select2-bootstrap/select2-bootstrap.css" />
+
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="fonts/pe-icon-7-stroke/css/helper.css" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/custom.css">
+
+</head>
+
+<body class="fixed-navbar fixed-sidebar">
+    <!-- Header -->
+    <div id="header">
+        <div class="color-line">
+        </div>
+        <div class="left">
+            <div class="header-link hide-menu"><i class="fa fa-bars"></i></div>
+            <div id="logo">
+                <span>
+            Pylon
+        </span>
+            </div>
+        </div>
+        <nav role="navigation">
+
+            <div class="mobile-menu">
+                <button type="button" class="navbar-toggle mobile-menu-toggle" data-toggle="collapse" data-target="#mobile-collapse">
+                <i class="fa fa-chevron-down"></i>
+            </button>
+                <div class="collapse mobile-navbar" id="mobile-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="" href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a class="" href="login.html">Logout</a>
+                        </li>
+                        <li>
+                            <a class="" href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav no-borders">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                            <i class="pe-7s-chat"></i>
+                        </a>
+                        <ul class="dropdown-menu hdropdown animated flipInX">
+                            <div class="title">
+                                You have 4 new messages
+                            </div>
+                            <li>
+                                <a>
+                              It is a long established.
+                          </a>
+                            </li>
+                            <li>
+                                <a>
+                              There are many variations.
+                          </a>
+                            </li>
+                            <li>
+                                <a>
+                              Lorem Ipsum is simply dummy.
+                          </a>
+                            </li>
+                            <li>
+                                <a>
+                              Contrary to popular belief.
+                          </a>
+                            </li>
+                            <li class="summary"><a href="#">See All Messages</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown label-menu-corner">
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                            <i class="pe-7s-speaker"></i>
+                            <span class="label label-success">4</span>
+
+                        </a>
+                        <ul class="dropdown-menu hdropdown notification animated flipInX">
+                            <li>
+                                <a>
+                                    <span class="label label-success">NEW</span> It is a long established.
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="label label-warning">WAR</span> There are many variations.
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="label label-danger">ERR</span> Contrary to popular belief.
+                                </a>
+                            </li>
+                            <li class="summary"><a href="#">See all notifications</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" id="sidebar" class="right-sidebar-toggle">
+                            <i class="pe-7s-upload pe-7s-news-paper"></i>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="login.html">
+                            <i class="pe-7s-upload pe-rotate-90"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Navigation -->
+    <aside id="menu">
+        <div id="navigation">
+            <div class="profile-picture">
+                <a href="index.html">
+                    <img src="images/profile.jpg" class="img-circle m-b" alt="logo">
+                </a>
+
+                <div class="stats-label text-color">
+                    <span class="font-extra-bold font-uppercase">Shuki Lehavi</span>
+                    <small class="job-title">Team Leader</small>
+                </div>
+            </div>
+
+            <ul class="nav" id="side-menu">
+                <li class="active">
+                    <a href="#"><span class="nav-label">Dashboard</span><span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">Delivery Pacing</a></li>
+                        <li><a href="#">Performance</a></li>
+                        <li><a href="#">Device Breakdown</a></li>
+                        <li><a href="#">Channel Breakdown</a></li>
+                        <li><a href="#">Strategy Breakdown</a></li>
+                        <div class="separator"></div>
+                        <li><a href="#">Geography</a></li>
+                        <li><a href="#">Site Transparency</a></li>
+                        <li><a href="#">Reach &amp; Frequency</a></li>
+                        <li><a href="#">Device Breakdown</a></li>
+                        <li><a href="#">Creative Breakdown</a></li>
+                        <li><a href="#">Audiance Analysis</a></li>
+                        <div class="separator"></div>
+                        <li><a href="#">Notes</a></li>
+                        <li><a href="#">Optimization Log</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><span class="nav-label">To Do</span><span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">Nav Item</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><span class="nav-label">Emails</span><span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li><a href="#">Nav Item</a></li>
+
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#"><span class="nav-label">Team Chat</span><span class="fa arrow"></span> </a>
+                    <ul class="nav nav-second-level">
+                        <li class="chat">
+                            <div class="status online"><i class="fa fa-circle" aria-hidden="true"></i></div>
+                            <div class="user-information">
+                                <span>Shuki Lehavi <i class="fa fa-comment" aria-hidden="true"></i></span>
+                                <small class="job-title">Team Leader</small>
+                            </div>
+                        </li>
+
+                        <li class="chat">
+                            <div class="status idle"><i class="fa fa-circle" aria-hidden="true"></i></div>
+                            <div class="user-information">
+                                <span>Cyndy Flemming</span>
+                                <small class="job-title">Account Rep</small>
+                            </div>
+                        </li>
+
+                        <li class="chat">
+                            <div class="status offline"><i class="fa fa-circle" aria-hidden="true"></i></div>
+                            <div class="user-information">
+                                <span>Andri Pramono</span>
+                                <small class="job-title">Strategist</small>
+                            </div>
+                        </li>
+
+                        <li class="chat">
+                            <div class="status offline"><i class="fa fa-circle" aria-hidden="true"></i></div>
+                            <div class="user-information">
+                                <span>Samuel Diaz</span>
+                                <small class="job-title">Trader</small>
+                            </div>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- Main Wrapper -->
+    <div id="wrapper">
+
+        <div class="content animate-panel">
+            <div class="row page-title">
+                <div class="col-lg-12">
+                    <h4 class="m-b">Dashboard Builder</h4>
+                    <div class="panel-tools">
+                        <select class="chosen data-set m-b m-r">
+              <option value="Spring Collection">Open a Dashboard</option>
+            </select>
+                        <button class="btn btn-primary m-b" type="submit">Create New Dashboard</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hpanel">
+                        <div class="panel-heading">
+                          <div class="panel-tools">
+                                <a class="showhide"><i class="fa fa-chevron-up"></i></a>
+                            </div>
+                            Dashboard Configuration
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-lg-12 m-b">
+                                <label><small>Title of Dashboard</small></label>
+                                <input type="text" class="form-control" placeholder="New Dashboard">
+                            </div>
+                            <div class="col-lg-12 m-b">
+                                <label><small>Dashboard Description</small></label>
+                                <textarea class="form-control" placeholder="Enter a Description"></textarea>
+                            </div>
+                            <div class="form-actions col-lg-12">
+                                <div class="arrow">
+                                    <button class="btn btn-grey m-r m-b" type="submit">Delete</button>
+                                    <button class="btn btn-primary m-b" type="submit">Save Dashboard</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hpanel">
+                        <div class="panel-heading">
+                          <div class="panel-tools">
+                                <a class="showhide"><i class="fa fa-chevron-up"></i></a>
+                            </div>
+                            Dashboard Preview
+                        </div>
+                        <div class="panel-body">
+                          <div class="col-lg-12">
+                            <div class="hpanel">
+                                <div class="panel-heading">
+                                    <div class="panel-tools">
+                                        <a class="closebox"><i class="fa fa-times"></i></a>
+                                    </div>
+                                    2017 - Spring Quarter
+                                </div>
+                                <div class="panel-body">
+                                    Chart Goes Here
+                                </div>
+                            </div>
+                          </div>
+
+                            <div class="col-lg-6">
+                                <div class="hpanel">
+                                    <div class="panel-heading">
+                                        <div class="panel-tools">
+                                            <a class="closebox"><i class="fa fa-times"></i></a>
+                                        </div>
+                                        Performance
+                                    </div>
+                                    <div class="panel-body">
+                                        Chart Goes Here
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="hpanel">
+                                    <div class="panel-heading">
+                                        <div class="panel-tools">
+                                            <a class="closebox"><i class="fa fa-times"></i></a>
+                                        </div>
+                                        Performance
+                                    </div>
+                                    <div class="panel-body">
+                                        Chart Goes Here
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="m-b">
+                                    <label><small>Add a new graph to your dashboard</small></label>
+
+                                    <select class="chosen data-set" style="width:100%">
+                                <option value="Spring Collection">Select a Graph</option>
+                              </select>
+                                </div>
+                                <button class="btn btn-primary m-b" type="submit">Add</button>
+                            </div>
+                        </div>
+
+
+                        <div class="panel-footer clearfix">
+                          <div class="arrow">
+                            <button class="btn btn-primary">Save Dashboard</button>
+                          </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Right sidebar -->
+    <div id="right-sidebar" class="animated fadeInRight">
+        <div class="p-m watchlist">
+            <h5 class="font-bold font-uppercase"> Watch List <a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></h5>
+            <ul>
+
+                <li class="item danger">
+                    <span>Audience Budget</span>
+                    <div class="progress m-t-xs full progress-small">
+                        <div style="width: 25%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class=" progress-bar progress-bar-danger">
+                        </div>
+                    </div>
+
+                    <small class="text-muted">Goal / Actual</small>
+                    <h5>$500 / <span class="text-danger">$150</span></h5>
+                    <button class="btn btn-primary">Resolve</button>
+                </li>
+
+
+                <li class="item danger">
+                    <span>Audience Budget</span>
+                    <div class="progress m-t-xs full progress-small">
+                        <div style="width: 25%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class=" progress-bar progress-bar-danger">
+                        </div>
+                    </div>
+                    <small class="text-muted">Goal / Actual</small>
+                    <h5>$500 / <span class="text-danger">$150</span></h5>
+                    <button class="btn btn-primary">Resolve</button>
+                </li>
+
+
+                <li class="item warning">
+                    <span>Audience Budget</span>
+                    <div class="progress m-t-xs full progress-small">
+                        <div style="width: 25%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class=" progress-bar progress-bar-warning">
+                        </div>
+                    </div>
+                    <small class="text-muted">Goal / Actual</small>
+                    <h5>$500 / <span class="text-warning">$150</span></h5>
+                    <button class="btn btn-primary">Resolve</button>
+                </li>
+
+
+                <li class="item warning">
+                    <span>Audience Budget</span>
+
+                    <div class="progress m-t-xs full progress-small">
+                        <div style="width: 25%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class=" progress-bar progress-bar-warning">
+                        </div>
+                    </div>
+                    <small class="text-muted">Goal / Actual</small>
+                    <h5>$500 / <span class="text-warning">$150</span></h5>
+                    <button class="btn btn-primary">Resolve</button>
+                </li>
+                <li class="item success">
+                    <span>Audience Budget</span>
+                    <div class="progress m-t-xs full progress-small">
+                        <div style="width: 25%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" role="progressbar" class=" progress-bar progress-bar-success">
+                        </div>
+                    </div>
+                    <small class="text-muted">Goal / Actual</small>
+                    <h5>$500 / <span class="text-success">$150</span></h5>
+                    <button class="btn btn-primary">Resolve</button>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- Vendor scripts -->
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="vendor/slimScroll/jquery.slimscroll.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery-flot/jquery.flot.js"></script>
+    <script src="vendor/jquery-flot/jquery.flot.resize.js"></script>
+    <script src="vendor/jquery-flot/jquery.flot.pie.js"></script>
+    <script src="vendor/flot.curvedlines/curvedLines.js"></script>
+    <script src="vendor/jquery.flot.spline/index.js"></script>
+    <script src="vendor/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="vendor/iCheck/icheck.min.js"></script>
+    <script src="vendor/peity/jquery.peity.min.js"></script>
+    <script src="vendor/sparkline/index.js"></script>
+    <script src="vendor/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="vendor/select2-3.5.2/select2.min.js"></script>
+
+    <!-- App scripts -->
+    <script src="scripts/homer.js"></script>
+    <script src="scripts/charts.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+</body>
+
+</html>
